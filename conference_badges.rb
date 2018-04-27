@@ -22,7 +22,7 @@ end
 
 def printer(names)
   printer = []
-  #binding.pry
+  binding.pry
   names.each_with_index do |name, speaker|
     printer << batch_badge_creator(name)
     printer << assign_rooms(speaker)[speaker]
