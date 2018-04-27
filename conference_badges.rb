@@ -23,7 +23,7 @@ end
 def printer(names)
   printer = []
   #binding.pry
-  names.each_with_index do |name, speaker|
+  names.each_line do |name, speaker|
     printer << name
     printer << speaker
   end
